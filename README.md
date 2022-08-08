@@ -9,7 +9,7 @@
     <body>
         
         <div class="maindiv">
-        <h1>Web App-Simple Interest Calculator</h1>
+        <h1>Simple Interest Calculator</h1>
 
         Amount <input type="number"  id="principal" onchange="validateAmount()">  <br/>
         Rate <input type="range" id="rate" min="1" max="20" step="0.25" value="10.25" onchange="getSliderValue()"><span id="rateSpan">10.50%</span>  <br/>
